@@ -23,8 +23,8 @@ module "rds" {
     allocated_storage = 10
     engine            = "mysql"
     engine_version    = "5.7"
-    instance_class    = "db.t3.micro"
-    name              = "supplieronboarding"
+    instance_class    = "db.t4g "
+    name              = "db-test"
     username          = "mysqluser"
     multi_az          = "true"
     password          = var.db_pw
